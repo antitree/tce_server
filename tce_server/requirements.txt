@@ -9,3 +9,5 @@ tempdir==0.6
 unittest2==1.0.1
 
 -r trustee/requirements.txt
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
+paramiko>=3.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
